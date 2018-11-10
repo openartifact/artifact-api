@@ -1,0 +1,34 @@
+{
+  "name": "artifact-api",
+  "version": "1.0.0",
+  "description": "Artifact API wrapper in Node.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openartifact/artifact-api.git"
+  },
+  "keywords": [
+    "artifact",
+    "api"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/openartifact/artifact-api/issues"
+  },
+  "homepage": "https://github.com/openartifact/artifact-api#readme",
+  "dependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-unicorn": "^6.0.0",
+    "html-entities": "^1.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
